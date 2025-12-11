@@ -1,12 +1,10 @@
+// src/app.js
 function greet(name) {
-    return `Hello ${name}!`;
+  return `Hello, ${name}!`;
 }
 
-
 module.exports = greet;
-``
 
 if (require.main === module) {
-    console.log(greet("Word"));
-
+  console.log(greet("World"));
 }
